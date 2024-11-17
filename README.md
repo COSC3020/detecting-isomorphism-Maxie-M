@@ -25,4 +25,11 @@ What is the worst-case big $\Theta$ time complexity of your algorithm?
     - $n$ is the number of veritces in the graph
 - adjaceny matrices are compared for each permutation, which adds a cost of $O(n^2)$ for the matrix equality checks
 - **Overall Time Complexity:** $O(n! \times n^2)$
-  
+
+
+## Plagiarism Statement:
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice. 
+
+## Resources:
+- https://towardsdatascience.com/testing-if-two-graphs-are-isomorphic-cf6c44ab551e
