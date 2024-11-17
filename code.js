@@ -3,13 +3,13 @@
 // Detecting Isomorphism 
 
 function are_isomorphic(graph1, graph2) {
-    if (graph1[0].length !== graph[0].length || graph[1].length !== graph2[1].length) {
+    if (graph1[0].length !== graph2[0].length || graph1[1].length !== graph2[1].length) {
         return false;
     }
     
     const adjMatrix1 = undirectedGraphToAdjMatrix(graph1);
     const vert2 = graph2[0];
-    const edges2 = graph[1];
+    const edges2 = graph2[1];
 
     const vertexPermutations = generatePermutations(vert2);
 
